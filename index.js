@@ -66,7 +66,6 @@ app.use(errorHandler);
 
 
 // error handling
-
 const exitHandler = () => {
   if (server) {
     server.close(() => {
